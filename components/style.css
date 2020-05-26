@@ -38,7 +38,7 @@
 	--color-action-down: rgb(0, 13, 155);
 	/* Shadows */
 	--glow-action: 0 var(--space-02) var(--space-00)
-		rgba(75, 90, 255, 0.5);
+		rgba(220, 80, 125, 0.5);
 	--effect-focused: inset 0 0 0 var(--border-width)
 		var(--color-action-thin);
 	--effect-error: inset 0 0 0 var(--border-width) var(--color-error);

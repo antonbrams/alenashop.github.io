@@ -19,6 +19,7 @@ button {
 	background-color: var(--color-action-bold);
 	color: var(--color-back);
 	cursor: pointer;
+	box-shadow: var(--glow-action);
 }
 
 .loader {
