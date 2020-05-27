@@ -81,7 +81,6 @@ button {
 
 .right {
 	overflow: hidden;
-	max-height: 100vh;
 }
 
 .info {
@@ -98,7 +97,7 @@ button {
 
 @keyframes slide {
 	from {
-		transform: translateY(-10vh);
+		transform: translateY(0vh);
 	}
 	to {
 		transform: translateY(-50vh);
@@ -109,6 +108,7 @@ button {
 	width: 100%;
 	object-fit: cover;
 	margin-bottom: var(--space-02);
+	filter: contrast(90%);
 }
 
 @media screen and (max-width: 720px) {
@@ -118,6 +118,9 @@ button {
 	}
 	.left {
 		padding: var(--space-10);
+	}
+	.right {
+		max-height: 80vh;
 	}
 	.pics {
 		columns: 2;
@@ -141,6 +144,7 @@ button {
 	.right {
 		grid-column: 2;
 		grid-row: 1 / span 2;
+		max-height: 100vh;
 	}
 	.pics {
 		columns: 160px;
