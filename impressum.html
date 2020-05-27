@@ -11,7 +11,6 @@
 	<style>
 		body {
 			max-width: 70ch;
-			padding: var(--space-10) var(--space-20);
 			margin: 0 auto;
 			background: var(--color-action-bold);
 		}
@@ -23,6 +22,18 @@
 			display: inline-block;
 			margin-right: var(--space-01);
 			margin-left: calc(-1 * var(--space-00));
+		}
+
+		@media screen and (max-width: 720px) {
+			body {
+				padding: var(--space-00);
+			}
+		}
+
+		@media screen and (min-width: 720px) {
+			body {
+				padding: var(--space-10);
+			}
 		}
 	</style>
 	<body class="theme_dark">
