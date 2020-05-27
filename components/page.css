@@ -1,6 +1,6 @@
 body {
 	display: grid;
-	max-width: 1280px;
+	max-width: 1300px;
 	margin: 0 auto;
 }
 
@@ -90,8 +90,19 @@ button {
 }
 
 .pics {
+	position: relative;
 	display: inline-block;
 	column-gap: var(--space-02);
+	animation: slide 20s infinite alternate ease-in-out;
+}
+
+@keyframes slide {
+	from {
+		transform: translateY(-10vh);
+	}
+	to {
+		transform: translateY(-50vh);
+	}
 }
 
 .pics img {
@@ -125,7 +136,7 @@ button {
 	.left {
 		grid-column: 1;
 		grid-row: 1;
-		padding: var(--space-10) var(--space-20);
+		padding: var(--space-10) var(--space-20) 0;
 	}
 	.right {
 		grid-column: 2;
@@ -137,6 +148,6 @@ button {
 	.footer {
 		grid-column: 1;
 		grid-row: 2;
-		padding: var(--space-10) var(--space-20);
+		padding: var(--space-00) var(--space-20);
 	}
 }
