@@ -53,8 +53,8 @@
 	--color-middle-thin: rgb(160, 160, 160);
 	--color-front: white;
 	/* Action */
-	--color-action-bold: rgb(65, 80, 255);
-	--color-action-thin: rgb(125, 135, 230);
+	--color-action-thin: rgb(187, 67, 106);
+	--color-action-bold: rgb(220, 80, 125);
 	--color-action-down: rgb(0, 13, 155);
 	/* Shadows */
 	--glow-action: 0 var(--space-02) var(--space-00)
