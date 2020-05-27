@@ -168,6 +168,6 @@ a {
 	height: var(--space-10);
 }
 
-img {
+/* img {
 	pointer-events: none;
-}
+} */

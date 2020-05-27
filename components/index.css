@@ -88,7 +88,7 @@ button {
 	position: relative;
 	display: inline-block;
 	column-gap: var(--space-02);
-	animation: slide 10s infinite alternate ease-in-out;
+	animation: slide 20s infinite alternate ease-in-out;
 }
 
 @keyframes slide {
