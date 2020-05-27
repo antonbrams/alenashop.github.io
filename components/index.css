@@ -111,7 +111,7 @@ button {
 	filter: contrast(90%);
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 740px) {
 	body {
 		grid-template-columns: 1fr;
 		grid-auto-rows: auto auto min-content;
@@ -131,7 +131,7 @@ button {
 	}
 }
 
-@media screen and (min-width: 720px) {
+@media screen and (min-width: 740px) {
 	body {
 		grid-template-columns: 1fr 1fr;
 		grid-template-rows: 1fr min-content;
