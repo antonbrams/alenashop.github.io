@@ -163,3 +163,7 @@ body.dev:before {
 a {
 	color: inherit;
 }
+
+.logo {
+	height: var(--space-10);
+}
