@@ -95,8 +95,8 @@ body.dev:before {
 		transparent 2px
 	);
 	background-size: auto var(--space-00);
-	background-position: 0 1px;
-	/* background-position: 0 -4px; */
+	/* background-position: 0 1px; */
+	background-position: 0 -4px;
 	pointer-events: none;
 }
 
@@ -166,4 +166,8 @@ a {
 
 .logo {
 	height: var(--space-10);
+}
+
+img {
+	pointer-events: none;
 }

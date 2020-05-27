@@ -44,6 +44,7 @@ button {
 .social > * {
 	display: inline-block;
 	margin-right: var(--space-01);
+	vertical-align: top;
 }
 
 .social img {
@@ -51,7 +52,6 @@ button {
 	margin-top: var(--space-01);
 	margin-bottom: var(--space-01);
 	cursor: pointer;
-	vertical-align: bottom;
 }
 
 @keyframes pulse {
@@ -88,7 +88,7 @@ button {
 	position: relative;
 	display: inline-block;
 	column-gap: var(--space-02);
-	animation: slide 20s infinite alternate ease-in-out;
+	animation: slide 10s infinite alternate ease-in-out;
 }
 
 @keyframes slide {
@@ -96,7 +96,7 @@ button {
 		transform: translateY(0vh);
 	}
 	to {
-		transform: translateY(-50vh);
+		transform: translateY(-80vh);
 	}
 }
 
@@ -104,7 +104,8 @@ button {
 	width: 100%;
 	object-fit: cover;
 	margin-bottom: var(--space-02);
-	filter: contrast(90%);
+	/* filter: contrast(90%); */
+	background: rgb(240, 240, 240);
 }
 
 @media screen and (max-width: 720px) {
