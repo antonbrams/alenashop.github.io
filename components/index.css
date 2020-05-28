@@ -96,7 +96,7 @@ button {
 		transform: translateY(0vh);
 	}
 	to {
-		transform: translateY(-70vh);
+		transform: translateY(-50vh);
 	}
 }
 
