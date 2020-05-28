@@ -129,11 +129,10 @@ button {
 	}
 	.pics {
 		--clmns: 2;
-		columns: var(--clmns);
-		-webkit-columns: var(--clmns);
-		-moz-columns: var(--clmns);
-		-o-columns: var(--clmns);
-		columns: var(--clmns);
+		-webkit-column-count: var(--clmns);
+		-moz-column-count: var(--clmns);
+		-o-column-count: var(--clmns);
+		column-count: var(--clmns);
 	}
 	.footer {
 		padding: var(--space-00);
@@ -158,11 +157,10 @@ button {
 	}
 	.pics {
 		--clmns: 160px;
-		columns: var(--clmns);
-		-webkit-columns: var(--clmns);
-		-moz-columns: var(--clmns);
-		-o-columns: var(--clmns);
-		columns: var(--clmns);
+		-webkit-column-width: var(--clmns);
+		-moz-column-width: var(--clmns);
+		-o-column-width: var(--clmns);
+		column-width: var(--clmns);
 	}
 	.footer {
 		grid-column: 1;
