@@ -96,7 +96,7 @@ button {
 		transform: translateY(0vh);
 	}
 	to {
-		transform: translateY(-80vh);
+		transform: translateY(-70vh);
 	}
 }
 
@@ -116,7 +116,6 @@ button {
 	.left {
 		padding: var(--space-10);
 	}
-	
 
 	.logoCenter {
 		text-align: center;
@@ -145,7 +144,7 @@ button {
 	}
 	.right {
 		grid-column: 2;
-		grid-row: 1 / span 2;
+		grid-row: 1 / -1;
 		max-height: 100vh;
 	}
 	.pics {
@@ -154,6 +153,6 @@ button {
 	.footer {
 		grid-column: 1;
 		grid-row: 2;
-		padding: var(--space-00) var(--space-20);
+		padding: var(--space-01) var(--space-20);
 	}
 }

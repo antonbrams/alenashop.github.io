@@ -142,8 +142,8 @@ body.dev:before {
 .text_01 {
 	font-size: 12px;
 	line-height: var(--line-height);
-	padding-top: 2px;
-	margin-bottom: -2px;
+	padding-top: 0px;
+	margin-bottom: 0px;
 }
 
 .text_01_ui {
