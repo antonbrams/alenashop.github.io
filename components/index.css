@@ -116,6 +116,11 @@ button {
 	.left {
 		padding: var(--space-10);
 	}
+	
+
+	.logoCenter {
+		text-align: center;
+	}
 	.right {
 		max-height: 80vh;
 	}
