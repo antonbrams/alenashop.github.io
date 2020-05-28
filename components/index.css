@@ -87,7 +87,11 @@ button {
 .pics {
 	position: relative;
 	display: inline-block;
-	column-gap: var(--space-02);
+	--gap: var(--space-02);
+	-webkit-column-gap: var(--gap);
+	-moz-column-gap: var(--gap);
+	-o-column-gap: var(--gap);
+	column-gap: var(--gap);
 	animation: slide 20s infinite alternate ease-in-out;
 }
 
@@ -124,7 +128,12 @@ button {
 		max-height: 80vh;
 	}
 	.pics {
-		columns: 2;
+		--clmns: 2;
+		columns: var(--clmns);
+		-webkit-columns: var(--clmns);
+		-moz-columns: var(--clmns);
+		-o-columns: var(--clmns);
+		columns: var(--clmns);
 	}
 	.footer {
 		padding: var(--space-00);
@@ -148,7 +157,12 @@ button {
 		max-height: 100vh;
 	}
 	.pics {
-		columns: 160px;
+		--clmns: 160px;
+		columns: var(--clmns);
+		-webkit-columns: var(--clmns);
+		-moz-columns: var(--clmns);
+		-o-columns: var(--clmns);
+		columns: var(--clmns);
 	}
 	.footer {
 		grid-column: 1;
