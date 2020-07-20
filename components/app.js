@@ -1,6 +1,6 @@
 const ph1 = '+491794'
 const ph2 = '261765'
-const em1 = 'anfrage@'
+const em1 = 'info@'
 const em2 = 'alenashop.de'
 
 const onload = () => {
